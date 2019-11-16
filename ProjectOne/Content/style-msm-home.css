@@ -1,0 +1,28 @@
+/**********************
+ *Header
+**********************/
+#top-bar,#top-bar a {
+	color: #fff;
+}
+
+#top-bar img {
+	vertical-align: bottom;
+}
+
+#mobile-logo-wrapper a {
+	padding: 20px;
+	display: flex;
+}
+
+#full-logo {
+	height: 70px;
+	margin: 6px 0;
+}
+
+#full-logo-wrapper {
+	top: -10px;
+}
+
+#mobile-logo-wrapper {
+	height: 90px;
+}

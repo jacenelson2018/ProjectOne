@@ -1,0 +1,117 @@
+
+/**********************
+*Navbar
+**********************/
+#nav-row { /* entire Navbar */
+    background-color: #46a2de;
+}
+
+#primary-menu-wrapper a:hover {
+    text-decoration: none;
+}
+
+#primary-menu-wrapper .level-2-wrapper { /* dropdown (mega) menu */
+    border-top: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    background-image:
+        url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAABCAYAAAD3ubPnAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMbFTkHZQnXlgAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAFUlEQVQoz2NgGAWjYBQMa3DmzJn/AAwUA2Rk7NYyAAAAAElFTkSuQmCC);
+    background-repeat: repeat;
+    white-space: nowrap;
+    padding: 0px 20px;
+    font-size: 1.04em;
+}
+
+#primary-menu-wrapper .level-2-wrapper>li { /* mega-menu columns */
+    width: 250px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    padding: 0px 20px;
+}
+
+#primary-menu-wrapper .level-2-wrapper>li:first-child {
+    /* first column in mega-menu */
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 230px;
+}
+
+#primary-menu-wrapper .level-2-wrapper>li:last-child {
+    /* final column in mega-menu */
+    margin-right: -1px;
+    width: 230px;
+}
+
+#primary-menu-wrapper .level-2 {
+    padding-left: 0px;
+}
+
+#primary-menu-wrapper .level-2 li {
+    margin-bottom: 15px;
+}
+
+#primary-menu-wrapper .level-2>li>a {
+    /* column header inside mega-menu*/
+    font-weight: 600;
+    color: #09314f;
+    padding-left: 0px;
+    white-space: normal;
+}
+
+#primary-menu-wrapper .level-2>li>a:hover {
+    /* column header inside mega-menu (on hover)*/
+    text-decoration: none;
+}
+
+#primary-menu-wrapper .level-3 {
+    padding-left: 0px;
+    white-space: normal;
+    font-size: .88em;
+}
+
+#primary-menu-wrapper .level-3>li {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#primary-menu-wrapper .level-3>li:last-child {
+    margin-bottom: 20px;
+}
+
+#primary-menu-wrapper .level-3>li>a {
+    color: #46a2de;
+    font-weight: 600;
+    display: block;
+}
+
+#primary-menu-wrapper .level-3>li>a[href]:hover {
+    color: #404040;
+}
+
+#primary-menu-wrapper .level-4 {
+    white-space: normal;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #404040;
+}
+
+#primary-menu-wrapper .level-4 a {
+    white-space: normal;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: #404040;
+}
+
+#primary-menu-wrapper .level-4>li>a:hover {
+    color: #46a2de;
+}
+
+#primary-menu-wrapper .level-4 li {
+    list-style: disc;
+    list-style-image: url('../img/bullet-arrow-blue.svg');
+    white-space: normal;
+    padding-left: 0px;
+    text-indent: -20px;
+    margin-bottom: -1px;
+    font-size: .91em;
+}
